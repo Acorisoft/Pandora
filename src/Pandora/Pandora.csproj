@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<TargetFrameworks>net5.0-windows;netcoreapp3.1;</TargetFrameworks>
+		<UseWPF>true</UseWPF>
+		<RootNamespace>Acorisoft.Pandora</RootNamespace>
+	</PropertyGroup>
+
+</Project>
