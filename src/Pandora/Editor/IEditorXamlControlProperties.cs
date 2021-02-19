@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acorisoft.Pandora.Documents;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace Acorisoft.Pandora.Editor
 {
     public interface IEditorXamlControlProperties
     {
+        IDocument Document { get; }
         IXamlScrollViewer ScrollViewer { get; }
         IXamlItemsControl ItemsControl { get; }
     }
