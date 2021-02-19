@@ -60,7 +60,7 @@ public class MouseDownHandler: EditorHandler<MouseDownEventArgs>
 {
     public void OnNext(MouseDownEventArgs e)
     {
-        //
+        // 获取当前鼠标位置的
         var element = Editor.GetDocumentBlockElementByPoint(e.Point);
         
         //
