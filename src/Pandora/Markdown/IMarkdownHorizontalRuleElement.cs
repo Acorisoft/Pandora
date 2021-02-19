@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Acorisoft.Pandora.Markdown
 {
-    public interface IMarkdownHorizontalRuleElement : IDocumentBlockElement, IMarkdownElement
+    public interface IMarkdownHorizontalRuleElement : IMarkdownBlockElement
     {
     }
 }

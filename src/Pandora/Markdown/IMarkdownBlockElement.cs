@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Acorisoft.Pandora.Markdown
 {
-    public interface IMarkdownBlockQuotes : IMarkdownBlockElement
+    public interface IMarkdownBlockElement : IDocumentBlockElement
     {
     }
 }
